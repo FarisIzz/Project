@@ -4,10 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>User Login</title>
+        <title>Jabatan Penjara| {{ $page }}</title>
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    
+         
     </head>
 
     <style>
@@ -20,10 +20,6 @@
       transform: translateX(40%);
     }
 
-    .bg-image {
-      
-    }
-
   </style>
 
 <body>     
@@ -34,7 +30,7 @@
       <div class="container-fluid h-custom">
         <div class="row d-flex justify-content-center align-items-center h-100">
           <div class="col-md-9 col-lg-6 col-xl-5">
-            <img src="{{ URL('images/ikan.png') }} " height="300" width="300"
+            <img src="{{ URL('images/logo.png') }} " height="300" width="300"
               class="gambar-kanan" alt="Sample image">
           </div>
           <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
@@ -68,8 +64,10 @@
     
               <div class="text-center text-lg-start mt-4 pt-2">
                 <button type="button" class="btn btn-success btn-lg"
-                  style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
-                <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="#!"
+                  style="padding-left: 2.5rem; padding-right: 2.5rem;">
+                  <a style="text-decoration: none;" href="/home" class="link-dark"> Login </a>
+                </button>
+                <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="/signup"
                     class="link-danger">Register</a></p>
               </div>
     
