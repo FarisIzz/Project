@@ -10,18 +10,6 @@
          
     </head>
 
-    <style>
-
-    /* CSS untuk mengatur posisi gambar */
-    .gambar-kanan{
-      /* Mengatur jarak dari kiri (left) */
-      left: 50%;
-      /* Menggeser gambar ke kiri sejauh setengah dari lebar gambar */
-      transform: translateX(40%);
-    }
-
-  </style>
-
 <body>     
     <h1 align='center'>JABATAN PENJARA MALAYSIA</h1>
     <hr>
@@ -65,7 +53,7 @@
               <div class="text-center text-lg-start mt-4 pt-2">
                 <button type="button" class="btn btn-success btn-lg"
                   style="padding-left: 2.5rem; padding-right: 2.5rem;">
-                  <a style="text-decoration: none;" href="/home" class="link-dark"> Login </a>
+                  <a style="text-decoration: none;" href="/index" class="link-dark"> Login </a>
                 </button>
                 <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="/signup"
                     class="link-danger">Register</a></p>

@@ -14,19 +14,24 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('login', [
-        "page" => "login"
-    ]);
-});
-
-Route::get('/home', function () {
-    return view('index', [
+    return view('home',[
+        "name" => "Muhammad Faris",
+        "email" => "farissenior24@gmail.com",
         "page" => "Home"
     ]);
 });
 
-Route::get('/signup', function () {
-    return view('signup', [
-        "page" => "SignUp"
+Route::get('/about', function () {
+    return view('about',[
+        "name" => "Muhammad Faris",
+        "email" => "Tomyamkicap@gmail.com",
+        "images" => "images/logo.png",
+        "page" => "About"
     ]);
+});
+
+Route::get('/posts', function () {
+    return view('posts',[
+        "page" => "Posts"
+    ]) ;
 });
